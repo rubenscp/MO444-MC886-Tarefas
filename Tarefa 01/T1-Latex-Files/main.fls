@@ -132,14 +132,14 @@ INPUT 03-paper.tex
 INPUT .\03-paper.tex
 INPUT .\03-paper.tex
 INPUT 03-paper.tex
+OUTPUT main.pdf
+INPUT C:\Users\Rubens\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\main.bbl
 INPUT main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-OUTPUT main.pdf
-INPUT C:\Users\Rubens\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT main.aux
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb

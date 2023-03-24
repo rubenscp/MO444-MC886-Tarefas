@@ -27,14 +27,38 @@ código fonte aberto, consentimento, créditos e compensação, e ambiente amig�
 
 
 Privacidade
-Os modelos base e os modelos generativos de conteúdos possuem a  O vazamento de informações 
+Os modelos base e os modelos generativos de conteúdo possuem a vulnerabilidade de ataques de privacidade, a qual pode  
+ser decorrente de dados duplicados nos datasets de treinamento. Esse comportamento de replicação tem sido 
+extensivamente estudado nesses modelos, podendo levar a resultados de imagens como a combinação de fundo e de objetos  
+de imagens reais do conjunto de imagens de treinamento. Esses resultados levantam questões sobre 
+memorização de dados, propriedade das imagens difundidas, imagens de 
+pessoas reais, reproduzindo dados do treinamento e não novas imagens criadas pelos modelos.
+
+As questões de privacidade ainda não possuem solução definitiva, mas ações vem sendo tomadas para minimizar 
+tais questões. As companhias tem disponibilizado website para fonecer identificação de imagens já treinadas/memorizadas.
+Outra ação para evitar a duplicação de dados é o uso de técnicas de deduplicação removendo de forma ampla dados 
+duplicados utilizados em treinamento. Além disso, companhias tem adotado medidas para prevenir 
+o compartilhamento de dados sensíveis pelos seus empregados, evitando 
+o uso desses dados em futuras versões de modelos de GCIA. Atualmente as medidas para evitar o vazamento de dados privados 
+são insuficientes e ainda faz-se necessário explorar sistemas confiáveis para a detecção de dados duplicados em modelos 
+generativos e maior investigação na memorização e generalização em sistemas de aprendizado profundo.
 
 
-Tendências/bias
+Viés/Tendências/Bias - Toxicidade - Desinformação
 
-Toxicidade
+Os dados de treinamento utilizados nos modelos de Inteligencia Artifical (IA) são obtidos do mundo real, os quais, 
+sem a intenção, podem reforçar estereótipos indesejáveis, excluir ou marginalizar certos grupos de indivíduos, conter 
+dados tóxicos, levando à incitação ao ódio ou violencia a a ofender indivíduos. 
 
-Desinformação
+O uso de filtros nos dados é uma possibilidade de minimizar tais problemas, contudo eles podem introduzir vieses nos 
+dados de treinamento que podem se propagar nos modelos. A fim de minimizar esses vieses, técnicas de pré-treinamento 
+são utilizadas nos dados antes do treinamento. Outra estratégia adotada é o contíuo treinamento dos modelos de GCIA 
+com as informações mais recentes evitando o surgimento de lacunas de informação e garantindo que os modelos 
+permanecem atualizados, relevantes e benéficos para a sociedade. Ainda existem lacunas para investigação 
+mais profunda desses de vieses, toxicidade e desinformação em todo o ciclo de vida de desenvolvimento dos modelos, 
+apesar de ser uma tarefa desafiadora.
+
+
 
 Proteção da propriedade intelectual
 
