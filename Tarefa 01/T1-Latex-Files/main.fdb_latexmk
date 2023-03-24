@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1679694324 "main.aux" "main.bbl" "main" 1679694514
+["bibtex main"] 1679694735 "main.aux" "main.bbl" "main" 1679694738
   "c:/texlive/2021/texmf-dist/bibtex/bst/base/unsrt.bst" 1649111736 18030 1376b4b231b50c66211e47e42eda2875 ""
   "egbib.bib" 1679675678 802 1733b3119ca78a989eb1a6b5aff0124d ""
-  "main.aux" 1679694513 1278 ee4958f9c3480f5103f19c85138a65d7 "pdflatex"
+  "main.aux" 1679694737 1278 07629c8ce0aeb560c254aeec3e712f06 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1679694512 "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1679694514
+["pdflatex"] 1679694735 "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1679694738
   "01-definicao.tex" 1679674753 463 307d310baf28002c068676d72f2d7681 ""
-  "02-noticia.tex" 1679694511 2268 1dcb5fc46be14afd8bf8272a4a69e5b4 ""
+  "02-noticia.tex" 1679694732 2759 096d07968d58de29660ec5463571f158 ""
   "03-paper.tex" 1679692622 4695 f40fc3f3dd587c3632d66ec7c37ee17b ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1649112844 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1649112007 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -82,8 +82,8 @@
   "c:/texlive/2021/texmf.cnf" 1649116159 713 e69b156964470283e0530f5060668171 ""
   "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" 1679694321 545 a6d7ce7ce40f489df48eb118b92d98b8 ""
   "face_deformada.png" 1679692406 995933 89011ea134877a2b31a31c6be340361c ""
-  "main.aux" 1679694513 1278 ee4958f9c3480f5103f19c85138a65d7 "pdflatex"
-  "main.bbl" 1679694324 464 161670fa4c0a603c8a6bc6e8972c7b30 "bibtex main"
+  "main.aux" 1679694737 1278 07629c8ce0aeb560c254aeec3e712f06 "pdflatex"
+  "main.bbl" 1679694735 464 161670fa4c0a603c8a6bc6e8972c7b30 "bibtex main"
   "main.out" 0 -1 0 "pdflatex"
   "main.tex" 1679694321 545 a6d7ce7ce40f489df48eb118b92d98b8 ""
   (generated)
