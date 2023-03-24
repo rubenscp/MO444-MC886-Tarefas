@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1679659647 "main.aux" "main.bbl" "main" 1679661719 0
+["bibtex main"] 1679659647 "main.aux" "main.bbl" "main" 1679661950 0
   "./egbib.bib" 1679659541 480 249ced6d217930e005d98279f5c02451 ""
   "C:/Program Files/MiKTeX/bibtex/bst/bibtex/unsrt.bst" 1291868336 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "main.aux" 1679661718 273 b987207547e24cec4d579de3bccacd6c "pdflatex"
+  "main.aux" 1679661949 273 b987207547e24cec4d579de3bccacd6c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1679661716 "w:/My Drive/Doutorado IC-Unicamp/Classes/MO444-MC886 - ML&PR/04. Assigments/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1679661719 0
+["pdflatex"] 1679661948 "w:/My Drive/Doutorado IC-Unicamp/Classes/MO444-MC886 - ML&PR/04. Assigments/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1679661950 0
   "01-definicao.tex" 1679659675 456 307d310baf28002c068676d72f2d7681 ""
   "02-noticia.tex" 1678914314 173 96606615e3bdfdfc09206cba071c4ea4 ""
   "03-paper.tex" 1679661715 2139 822a37f1f2d0ad0ac7088c462a631359 ""
@@ -42,10 +42,10 @@
   "C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1644215060 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
   "C:/Users/Rubens/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1654733273 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Rubens/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1654733304 10237148 1b37edde3df83accca8f2f135b4ac449 ""
-  "main.aux" 1679661718 273 b987207547e24cec4d579de3bccacd6c "pdflatex"
+  "main.aux" 1679661949 273 b987207547e24cec4d579de3bccacd6c "pdflatex"
   "main.bbl" 1679659648 364 cf7163ab3a9983fb4e941ae5de4062d2 "bibtex main"
-  "main.tex" 1679627481 456 84df75291ea343d5e6d9c1f6cb7db86c ""
-  "w:/My Drive/Doutorado IC-Unicamp/Classes/MO444-MC886 - ML&PR/04. Assigments/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" 1679627481 456 84df75291ea343d5e6d9c1f6cb7db86c ""
+  "main.tex" 1679661946 461 af4c654e09b5ff6c034a88875264b474 ""
+  "w:/My Drive/Doutorado IC-Unicamp/Classes/MO444-MC886 - ML&PR/04. Assigments/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" 1679661946 461 af4c654e09b5ff6c034a88875264b474 ""
   (generated)
   "main.aux"
   "main.log"
