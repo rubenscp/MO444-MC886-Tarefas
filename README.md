@@ -4,3 +4,6 @@ Repositório das tarefas desenvolvidas na disciplina MO444-MC886 - Aprendizado d
 Alunos: 
 - Marcelo - RA 
 - Rubens de Castro Pereira - RA 217146
+
+Professor:
+- Marcelo da Silva Reis
