@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex main"] 1680007038 "main.aux" "main.bbl" "main" 1680022938
+["bibtex main"] 1680007038 "main.aux" "main.bbl" "main" 1680023204
   "c:/texlive/2021/texmf-dist/bibtex/bst/base/unsrt.bst" 1649111736 18030 1376b4b231b50c66211e47e42eda2875 ""
   "egbib.bib" 1679859471 854 3ed977018b64d557d22be03a19cd08f5 ""
-  "main.aux" 1680022938 1898 97a98de0e238fbcbdc02e5e9dfec61ca "pdflatex"
+  "main.aux" 1680023203 1898 97a98de0e238fbcbdc02e5e9dfec61ca "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1680022936 "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1680022938
+["pdflatex"] 1680023202 "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1680023204
   "01-definicao.tex" 1679674753 463 307d310baf28002c068676d72f2d7681 ""
   "02-noticia.tex" 1679862251 4422 cff3db5c3006cdc374bc835387e17c27 ""
-  "03-paper.tex" 1680022935 13420 798b6da3d28e3896cfab84cf9b599126 ""
+  "03-paper.tex" 1680023201 13369 e47e8a8847bcf27eeb3fb6eb2c68dd25 ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1649112844 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1649112007 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1649112007 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -84,7 +84,7 @@
   "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" 1679862375 646 296db6a8ea1ac72e0868216f1d9df0be ""
   "face_deformada.png" 1679692406 995933 89011ea134877a2b31a31c6be340361c ""
   "images_generated_with_text_three_engineers.png" 1679839736 882164 a5ab1240df5990c91d36b401637ca7e1 ""
-  "main.aux" 1680022938 1898 97a98de0e238fbcbdc02e5e9dfec61ca "pdflatex"
+  "main.aux" 1680023203 1898 97a98de0e238fbcbdc02e5e9dfec61ca "pdflatex"
   "main.bbl" 1680007038 476 5d65c6420a0831bc6d5073f7d5d93043 "bibtex main"
   "main.out" 0 -1 0 "pdflatex"
   "main.tex" 1679862375 646 296db6a8ea1ac72e0868216f1d9df0be ""
