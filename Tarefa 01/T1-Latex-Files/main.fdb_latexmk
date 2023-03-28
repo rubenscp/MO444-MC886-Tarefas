@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1679857711 "main.aux" "main.bbl" "main" 1679857749
+["bibtex main"] 1679859979 "main.aux" "main.bbl" "main" 1679862380
   "c:/texlive/2021/texmf-dist/bibtex/bst/base/unsrt.bst" 1649111736 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "egbib.bib" 1679839736 858 9ed6813e8105eca90c147918728e4702 ""
-  "main.aux" 1679857748 1663 c5f8c99f08bee93fe0fe8d78a683f00b "pdflatex"
+  "egbib.bib" 1679859471 854 3ed977018b64d557d22be03a19cd08f5 ""
+  "main.aux" 1679862379 1890 0503142bb3018dc1f7cc2c717f74ace8 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1679857746 "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1679857749
+["pdflatex"] 1679862376 "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1679862380
   "01-definicao.tex" 1679674753 463 307d310baf28002c068676d72f2d7681 ""
-  "02-noticia.tex" 1679695815 3974 5e760467fa554ef0c993e023e6cfa62d ""
+  "02-noticia.tex" 1679862251 4422 cff3db5c3006cdc374bc835387e17c27 ""
   "03-paper.tex" 1679857744 13018 99efb5d4f1229f06da38535e85c7248d ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1649112844 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1649112007 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -81,13 +81,13 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1649116185 4448422 1ce8db434ffa4259b75148f2b12051ea ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1649116272 2826122 cbc48128fc3d3e91f4c2190cf67a2bce ""
   "c:/texlive/2021/texmf.cnf" 1649116159 713 e69b156964470283e0530f5060668171 ""
-  "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" 1679844536 555 1416b087c84019d28409c9e2ec04d728 ""
+  "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" 1679862375 646 296db6a8ea1ac72e0868216f1d9df0be ""
   "face_deformada.png" 1679692406 995933 89011ea134877a2b31a31c6be340361c ""
   "images_generated_with_text_three_engineers.png" 1679839736 882164 a5ab1240df5990c91d36b401637ca7e1 ""
-  "main.aux" 1679857748 1663 c5f8c99f08bee93fe0fe8d78a683f00b "pdflatex"
-  "main.bbl" 1679857711 468 8fd74a0ebdf7682a38804030c9f6b59a "bibtex main"
+  "main.aux" 1679862379 1890 0503142bb3018dc1f7cc2c717f74ace8 "pdflatex"
+  "main.bbl" 1679859980 476 5d65c6420a0831bc6d5073f7d5d93043 "bibtex main"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1679844536 555 1416b087c84019d28409c9e2ec04d728 ""
+  "main.tex" 1679862375 646 296db6a8ea1ac72e0868216f1d9df0be ""
   (generated)
   "main.aux"
   "main.log"
