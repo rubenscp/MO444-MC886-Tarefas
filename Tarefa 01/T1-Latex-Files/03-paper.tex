@@ -35,46 +35,47 @@ oferecer código fonte aberto, permitir consentimento dos autores para uso nos m
 respeitar créditos autorais dos resultados, oferecer compensação aos proprietários dos dados quando 
 estes são utilizados nos modelos e, por fim, possibilitar um ambiente amigável para o seu uso.
 
-Considerando o aspecto de privacidade, os modelos generativos de conteúdo permitem uma vulnerabilidade de ataques de privacidade,
-devido ao grande volume de dados duplicados nos datasets de treinamento. 
-Esse comportamento de replicação tem sido extensivamente estudado nestes modelos e podem levar 
-a resultados de imagens como a combinação de fundo e de objetos de imagens reais. Um exemplo desse resultado 
-ocorreu com a Stable Diffusion onde a imagem  final era a combinação simples de imagens do dataset de treinamento 
-considerando o plano de fundo (\textit{background}) e plano da frente (\textit{foreground}). Devido a isso, 
-esses resultados acabam por divulgar imagens particulares de seus autores reais como se fossem 
-imagens do próprio modelo, o que é uma consequencia natural da elevada capacidade de memorização pelos modelos ao longo
-do treinamento, reproduzindo essas imagens e não criando novas imagens.
+Os modelos geradores de conteúdo permitem uma vulnerabilidade de ataques de privacidade devido ao grande volume de dados duplicados nos conjuntos de dados de treinamento. 
+Esse comportamento de replicação tem sido extensivamente estudado nestes modelos e resultar em imagens 
+como a combinação de fundo e de objetos de imagens reais. Um exemplo desse resultado 
+ocorreu com a Stable Diffusion, em que a imagem  final era a combinação simples de imagens do dataset de treinamento 
+considerando o plano de fundo (\textit{background}) e plano da frente (\textit{foreground}). Devido a esse comportamento de replicação  
+esses resultados divulgam imagens particulares de seus autores reais como se fossem 
+imagens do próprio modelo, demonstrando a memorização dos modelos ao longo
+do treinamento, que acaba reproduzindo, e não criando, novas imagens.
 
-As questões de privacidade ainda não possuem solução definitiva, mas ações vem sendo tomadas para minimizar essas consequencias 
-danosas. As companhias tem disponibilizado website para fornecer identificação de imagens já treinadas como a 
+As questões de privacidade ainda não possuem soluções definitivas, mas ações vem sendo tomadas para minimizar essas consequências 
+danosas. As companhias tem disponibilizado um website para fornecer identificação de imagens já treinadas como a 
 companhia de arte Spawning AI. 
-Outra ação para evitar a duplicação de dados é o uso de técnicas de deduplicação removendo de forma ampla dados
-duplicados utilizados em treinamento. Nessa linha segue a companhia OpenAI que reconhece as dificuldades para eliminar 
-completamente dados duplicados. 
-Outras companhias como Microsoft e Amazon tem adotado medidas para prevenir o compartilhamento de dados sensíveis pelos seus empregados, 
+\textbf{(Vamos tentar reescrever?) Outra ação para evitar a duplicação de dados é o uso de técnicas de duplicação removendo de forma ampla dados
+duplicados utilizados em treinamento.} A empresa OpenAI segue nessa linha, reconhecendo as dificuldades para eliminar dados duplicados. 
+Outras companhias como Microsoft e Amazon têm adotado medidas para prevenir o compartilhamento de dados sensíveis pelos seus empregados, 
 evitando o uso desses dados em futuras versões de modelos de GCIA.
 Atualmente as medidas para evitar o vazamento de dados privados são insuficientes e 
 ainda faz-se necessário explorar sistemas confiáveis para a detecção de dados duplicados em modelos generativos e uma 
 maior investigação no processo de memorização e generalização em sistemas de aprendizado profundo.
 
-Relativo ao aspecto de vieses ou tendencias, geralmente os dados de treinamento 
-utilizados nos modelos de Inteligencia Artifical (IA) são obtidos do mundo real,
-os quais, sem a intenção, podem reforçar estereótipos indesejáveis, excluir ou marginalizar certos grupos de indivíduos, 
-conter dados tóxicos, pode levar à incitação ao ódio ou violência, além de poder ofender indivíduos. 
-Um exemplo de dataset que apresenta esse tipo de problema é o LAION, que contém conteúdos relacionados à estereotipagem social,
-pornografia, calúnias racistas e violência. Para minimizar esses problemas, o uso de filtros nos dados é uma possibilidade,
-contudo eles podem introduzir vieses nos dados de treinamento e, em seguida, propagar esses vieses nos modelos.
+Os dados de treinamento utilizados nos modelos de Inteligência Artificial (IA) são obtidos do mundo real, podendo reforçar estereótipos indesejados, excluir ou marginalizar grupos de indivíduos, exacerbar toxicidade no discurso e podendo levar à incitação ao ódio e violência.
+Um exemplo é o conjunto de dados LAION (\textit{Large-scale Artificial Intelligence Open Network}), contendo conteúdos relacionados à estereotipagem social,
+pornografia, calúnias racistas e violência. O uso de filtros nos dados é uma possibilidade para minimizar esses problemas, mas podem introduzir viéses nos dados de treinamento que serão propagados pelos modelos.
+
+% Relativo ao aspecto de viéses ou tendencias, geralmente os dados de treinamento 
+% utilizados nos modelos de Inteligencia Artificial (IA) são obtidos do mundo real,
+% os quais, sem a intenção, podem reforçar estereótipos indesejáveis, excluir ou marginalizar certos grupos de indivíduos, 
+% conter dados tóxicos, pode levar à incitação ao ódio ou violência, além de poder ofender indivíduos. 
+% Um exemplo de dataset que apresenta esse tipo de problema é o LAION, que contém conteúdos relacionados à estereotipagem social,
+% pornografia, calúnias racistas e violência. Para minimizar esses problemas, o uso de filtros nos dados é uma possibilidade,
+% contudo eles podem introduzir viéses nos dados de treinamento e, em seguida, propagar esses viéses nos modelos.
 
 Para ilustrar modelos que podem produzir resultados tendenciosos, a Figura \ref{fig:images_of_three_engineers} apresenta 
-imagens geradas por meio do comando \textit{prompt} ``\textit{Three engineers running on the grassland}'' 
-e o resultado foram indivíduos do sexo masculino, excluindo indivíduos das minorias raciai e
-indicando uma ausencia de diversidade de gênero.
-Outras estratégias para minimizar esses vieses são o emprego de técnicas de pré-treinamento aplicadas aos dados antes do treinamento do 
-modelo e o contínuo treinamento com as informações mais recentes evitando o 
-surgimento de lacunas de informação e garantindo que os modelos permaneçam atualizados, relevantes 
-e benéficos para a sociedade. Ainda existem oportunidades para investigação mais profunda desses de vieses, de
-toxicidade e de desinformação em todo o ciclo de vida de desenvolvimento dos modelos, 
-apesar de ser uma tarefa desafiadora.
+imagens geradas por meio do comando \textit{prompt} ``\textit{Three engineers running on the grassland}''. 
+O resultado foram indivíduos do sexo masculino e brancos, excluindo indivíduos de minorias raciais e
+indicando uma ausência de diversidade de gênero.
+Outras estratégias para minimizar esses viéses são o emprego de técnicas de pré-treinamento aplicadas aos dados antes do treinamento do 
+modelo e o contínuo treinamento com as informações mais recentes. Assim, evita-se o 
+surgimento de lacunas de informação e garante-se que os modelos permaneçam atualizados, relevantes, 
+e benéficos para a sociedade. Existem oportunidades desafiadoras para investigação mais profunda de viéses,
+toxicidade e desinformação em todo o ciclo de vida de desenvolvimento dos modelos.
 
 % Código para centralizar uma figura e posicioná-la "exatamente" no texto
 % O opção 'h' posiciona a imagem
@@ -150,7 +151,7 @@ pessoas podem ser privilegiadas em detrimento de outros grupos resultando em des
 
 Por fim, observa-se nos modelos de GCIA a existencia de conflitos entre seus diversos objetivos, pois ao focar na prevenção 
 de determinado risco pode-se criar uma vulnerabilidade em outro tipo de risco. Um exemplo seria quando se busca mitigar 
-o uso de termos tóxicos em modelos de linguagem podem surgir vieses na predição que discrimina outras 
+o uso de termos tóxicos em modelos de linguagem podem surgir viéses na predição que discrimina outras 
 comunidades.
 
 O artigo finaliza indicando que GCIA ainda está em uma fase embrionária, em crescente e rápida eovlução, 

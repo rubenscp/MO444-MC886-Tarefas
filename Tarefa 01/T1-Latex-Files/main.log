@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.4.4)  28 MAR 2023 08:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.4.4)  28 MAR 2023 09:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -294,10 +294,10 @@ Package pdftex.def Info: face_deformada.png  used on input line 21.
 <images_generated_with_text_three_engineers.png, id=35, 473.51906pt x 487.06969pt>
 File: images_generated_with_text_three_engineers.png Graphic file (type png)
 <use images_generated_with_text_three_engineers.png>
-Package pdftex.def Info: images_generated_with_text_three_engineers.png  used on input line 91.
+Package pdftex.def Info: images_generated_with_text_three_engineers.png  used on input line 92.
 (pdftex.def)             Requested size: 222.55397pt x 228.92278pt.
 
-Overfull \hbox (0.76474pt too wide) in paragraph at lines 91--92
+Overfull \hbox (0.76474pt too wide) in paragraph at lines 92--93
  [][] 
  []
 
@@ -314,7 +314,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  60i,6n,63p,772b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (4 pages, 2343718 bytes).
+Output written on main.pdf (4 pages, 2346058 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
