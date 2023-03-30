@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1680209615 "main.aux" "main.bbl" "main" 1680210045 0
+["bibtex main"] 1680209615 "main.aux" "main.bbl" "main" 1680210338 0
   "./egbib.bib" 1680203209 868 5709f68dd08018a6af2832d46fb61c95 ""
   "C:/Program Files/MiKTeX/bibtex/bst/bibtex/unsrt.bst" 1291868336 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "main.aux" 1680210043 1898 bcb01b0b835665bdc622ae472d0dcb4c "pdflatex"
+  "main.aux" 1680210336 1898 bcb01b0b835665bdc622ae472d0dcb4c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1680210036 "w:/My Drive/Doutorado IC-Unicamp/Classes/MO444-MC886 - ML&PR/04. Assigments/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1680210045 0
+["pdflatex"] 1680210332 "w:/My Drive/Doutorado IC-Unicamp/Classes/MO444-MC886 - ML&PR/04. Assigments/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1680210338 0
   "01-definicao.tex" 1679659675 456 307d310baf28002c068676d72f2d7681 ""
   "02-noticia.tex" 1680142826 4422 cff3db5c3006cdc374bc835387e17c27 ""
   "03-paper.tex" 1680197894 13418 2b01c739910f4eaa071c01f392ebc669 ""
@@ -89,12 +89,12 @@
   "C:/Users/Rubens/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1000.pk" 1680209830 12124 9568aa3f130430360d5166f40f942c74 ""
   "C:/Users/Rubens/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1680198928 11548 4fd672f80cb50c9bf58f0db05e2813ad ""
   "C:/Users/Rubens/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1654733304 10237148 1b37edde3df83accca8f2f135b4ac449 ""
-  "bonus-chatgpt.tex" 1680210035 8280 3e51858e1834434311e6eaf09e236189 ""
+  "bonus-chatgpt.tex" 1680210330 8281 6b024346b600d0cc226927fb18db3857 ""
   "face_deformada.png" 1679740040 995933 89011ea134877a2b31a31c6be340361c ""
   "images_generated_with_text_three_engineers.png" 1679773267 882164 a5ab1240df5990c91d36b401637ca7e1 ""
-  "main.aux" 1680210043 1898 bcb01b0b835665bdc622ae472d0dcb4c "pdflatex"
+  "main.aux" 1680210336 1898 bcb01b0b835665bdc622ae472d0dcb4c "pdflatex"
   "main.bbl" 1680209616 505 c215fd9cb7ad3b36a7f7e49d819a9982 "bibtex main"
-  "main.out" 1680210041 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.out" 1680210335 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1680209577 692 d7dd4ddee779097e9a6d8a930f47a566 ""
   "w:/My Drive/Doutorado IC-Unicamp/Classes/MO444-MC886 - ML&PR/04. Assigments/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" 1680209577 692 d7dd4ddee779097e9a6d8a930f47a566 ""
   (generated)
