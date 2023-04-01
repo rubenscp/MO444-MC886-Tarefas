@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.4.4)  1 APR 2023 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.4.4)  1 APR 2023 18:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -309,30 +309,30 @@ Package pdftex.def Info: face_deformada.png  used on input line 21.
 <images_generated_with_text_three_engineers.png, id=35, 473.51906pt x 487.06969pt>
 File: images_generated_with_text_three_engineers.png Graphic file (type png)
 <use images_generated_with_text_three_engineers.png>
-Package pdftex.def Info: images_generated_with_text_three_engineers.png  used on input line 94.
+Package pdftex.def Info: images_generated_with_text_three_engineers.png  used on input line 82.
 (pdftex.def)             Requested size: 222.55397pt x 228.92278pt.
 
-Overfull \hbox (0.76474pt too wide) in paragraph at lines 94--95
+Overfull \hbox (0.76474pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
-[3 <./images_generated_with_text_three_engineers.png>]) (./bonus-chatgpt.tex) [4] (./main.aux)
+[3 <./images_generated_with_text_three_engineers.png>]) (./bonus-chatgpt.tex) [4] [5] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10106 strings out of 478276
- 159311 string characters out of 5850490
+ 10107 strings out of 478276
+ 159317 string characters out of 5850490
  487396 words of memory out of 5000000
  28184 multiletter control sequences out of 15000+600000
  473553 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,63p,772b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,63p,804b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (4 pages, 2350026 bytes).
+Output written on main.pdf (5 pages, 2348843 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

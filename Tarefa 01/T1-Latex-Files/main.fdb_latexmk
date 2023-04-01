@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1680380909 "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1680380912
+["pdflatex"] 1680383248 "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" "main.pdf" "main" 1680383250
   "01-definicao.tex" 1679674753 463 307d310baf28002c068676d72f2d7681 ""
   "02-noticia.tex" 1679862251 4422 cff3db5c3006cdc374bc835387e17c27 ""
-  "03-paper.tex" 1680377037 13416 054cc6d0533791e9835fbdca67f23d03 ""
+  "03-paper.tex" 1680383247 11988 dec57a1d558f0c811e4a88124ace0430 ""
   "bonus-chatgpt.tex" 1680380356 8948 ebe8f527997b5a9d567f08a2de483292 ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1649112844 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1649112007 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -80,7 +80,7 @@
   "d:/ObsidianMarcelo/Reading_and_Writing/UNICAMP/MO444/GitHub/MO444-MC886-Tarefas/Tarefa 01/T1-Latex-Files/main.tex" 1680380907 1329 bd98e18a339731a90cfe3810a8fc693e ""
   "face_deformada.png" 1679692406 995933 89011ea134877a2b31a31c6be340361c ""
   "images_generated_with_text_three_engineers.png" 1679839736 882164 a5ab1240df5990c91d36b401637ca7e1 ""
-  "main.aux" 1680380912 1865 08d1c40721f1f59e51563e8a36785431 "pdflatex"
+  "main.aux" 1680383250 1865 fbb48e222b3be5995666a48d47dfc017 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
   "main.tex" 1680380907 1329 bd98e18a339731a90cfe3810a8fc693e ""
   (generated)

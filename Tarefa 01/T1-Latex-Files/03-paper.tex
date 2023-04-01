@@ -45,29 +45,17 @@ replicação esses resultados divulgam imagens particulares de seus autores reai
 imagens do próprio modelo, demonstrando a memorização dos modelos ao longo
 do treinamento, que acaba reproduzindo, e não criando, novas imagens.
 
-As questões de privacidade ainda não possuem soluções definitivas, mas ações vem sendo tomadas para minimizar essas 
-consequências danosas. As companhias tem disponibilizado um website para fornecer identificação de imagens 
-já treinadas como a companhia de arte Spawning AI. 
-\textbf{(Vamos tentar reescrever?) Outra ação para evitar a duplicação de dados é o uso de técnicas de duplicação
-removendo de forma ampla dados duplicados utilizados em treinamento.} 
+As questões de privacidade ainda não possuem soluções definitivas, mas ações vem sendo tomadas para minimizar essas consequências danosas. As companhias tem disponibilizado um website para fornecer identificação de imagens já treinadas como a companhia de arte Spawning AI. 
 A empresa OpenAI segue nessa linha, reconhecendo as dificuldades para eliminar dados duplicados. 
 Outras companhias como Microsoft e Amazon têm adotado medidas para prevenir o compartilhamento de 
 dados sensíveis pelos seus empregados, evitando o uso desses dados em futuras versões de modelos de GCIA.
 Atualmente as medidas para evitar o vazamento de dados privados são insuficientes e 
-ainda faz-se necessário explorar sistemas confiáveis para a detecção de dados duplicados em modelos generativos e uma 
-maior investigação no processo de memorização e generalização em sistemas de aprendizado profundo.
+ainda faz-se necessário explorar sistemas confiáveis para a detecção de dados duplicados em modelos generativos e uma maior investigação no processo de memorização e generalização em sistemas de aprendizado profundo.
 
 Os dados de treinamento utilizados nos modelos de Inteligência Artificial (IA) são obtidos do mundo real, podendo reforçar estereótipos indesejados, excluir ou marginalizar grupos de indivíduos, exacerbar toxicidade no discurso e podendo levar à incitação ao ódio e violência.
 Um exemplo é o conjunto de dados LAION (\textit{Large-scale Artificial Intelligence Open Network}), contendo conteúdos relacionados à estereotipagem social,
 pornografia, calúnias racistas e violência. O uso de filtros nos dados é uma possibilidade para minimizar esses problemas, mas podem introduzir viéses nos dados de treinamento que serão propagados pelos modelos.
 
-% Relativo ao aspecto de viéses ou tendencias, geralmente os dados de treinamento 
-% utilizados nos modelos de Inteligencia Artificial (IA) são obtidos do mundo real,
-% os quais, sem a intenção, podem reforçar estereótipos indesejáveis, excluir ou marginalizar certos grupos de indivíduos, 
-% conter dados tóxicos, pode levar à incitação ao ódio ou violência, além de poder ofender indivíduos. 
-% Um exemplo de dataset que apresenta esse tipo de problema é o LAION, que contém conteúdos relacionados à estereotipagem social,
-% pornografia, calúnias racistas e violência. Para minimizar esses problemas, o uso de filtros nos dados é uma possibilidade,
-% contudo eles podem introduzir viéses nos dados de treinamento e, em seguida, propagar esses viéses nos modelos.
 
 Para ilustrar modelos que podem produzir resultados tendenciosos, a Figura \ref{fig:images_of_three_engineers} apresenta 
 imagens geradas por meio do comando \textit{prompt} ``\textit{Three engineers running on the grassland}''. 
@@ -102,70 +90,36 @@ toxicidade e desinformação em todo o ciclo de vida de desenvolvimento dos mode
 %     \includegraphics[width=0.25\textwidth]{contour}
 % \end{wrapfigure}
 
-% Considerando questões relativas à proteção da propriedade intelectual, 
 À medida que as técnicas avançam surgem situações de violação de direitos autorais
 com os conteúdos gerados artificialmente. Um dos desafios é associar a legislação da propriedade intelectual, 
-que define de forma clara o que é um trabalho original, 
-a quando o direito à propriedade intelectual é violado. Por isso, a definição de propriedade intelectual no âmbito 
-dos modelos de geração de conteúdos por IA permanece obscura e indefinida.
-Alguns exemplos de problemas surgem em modelos geradores 
-baseados em texto-para-imagem, acusados de infringir os trabalhos de artistas plásticos \textbf{(será que não seria apenas artistas?)}, 
-consequência do uso de grandes volumes de imagens da internet para o treinamento dos modelos como Stable Diffusion.
-% Acho que o Copilot não é treinado em imagens
+que define de forma clara o que é um trabalho original, a quando o direito à propriedade intelectual é violado. Por isso, a definição de propriedade intelectual no âmbito dos modelos de geração de conteúdos por IA permanece obscura e indefinida. Alguns exemplos de problemas surgem em modelos geradores baseados em texto-para-imagem, acusados de infringir os trabalhos de artistas, consequência do uso de grandes volumes de imagens da internet para o treinamento dos modelos como Stable Diffusion.
 
 
 
 
 
-Uma estratégia de minimizar a violação da propriedade intelectual é permitir que os artistas que considerarem seus direitos autorais
-violados tenham seus trabalhos removidos dos datasets, como a empresa Midjourney. 
+Uma estratégia de minimizar a violação da propriedade intelectual é permitir que os artistas que considerarem seus direitos autorais violados tenham seus trabalhos removidos dos datasets, como a empresa Midjourney. 
 Outras companhias, como Stability AI, planejam permitir que os próprios artistas removam seus trabalhos, 
-dando mais flexibilidade ao processo de proteção intelectual. 
-Para textos a marca d'água têm sido utilizada auxiliando na verificação do uso de fontes sem permissão para a geração 
-de conteúdos. A companhia OpenAI trabalha para disponibilizar um classificador que consiga diferenciar entre 
-texto gerado por modelos de IA e textos escritos por pessoas.
+dando mais flexibilidade ao processo de proteção intelectual. Para textos a marca d'água têm sido utilizada auxiliando na verificação do uso de fontes sem permissão para a geração de conteúdos. A companhia OpenAI trabalha para disponibilizar um classificador que consiga diferenciar entre texto gerado por modelos de IA e textos escritos por pessoas.
 
 
-Após breve análise dos principais elementos desejáveis no escopo de GCIA responsáveis, faz-se necessário avaliar  
-outras característivas que devem existir nos modelos.
+Após breve análise dos principais elementos desejáveis no escopo de GCIA responsáveis, faz-se necessário avaliar outras característivas que devem existir nos modelos.
 
-Os conteúdos gerados pelos modelos podem propagar informação oculta, violenta, danosa e falsa, em que os textos e 
-imagens são difíceis de serem diferenciadas de conteúdos criados por pessoas. Assim, podem ser utilizados para publicação de notícias falsas (\textit{fake news}), boatos e até mensagens de assédio. 
-Além disso, o uso para fins comerciais gera bastante controvérsia, passando por imagens e textos inseridos 
-em produtos e soluções à integração dos modelos em software e sistemas. A possibilidade da substituição 
-de determinados trabalhos realizados por pessoas de uma forma descontrolada é desconfortável para muitos.
+Os conteúdos gerados pelos modelos podem propagar informação oculta, violenta, danosa e falsa, em que os textos e imagens são difíceis de serem diferenciadas de conteúdos criados por pessoas. Assim, podem ser utilizados para publicação de notícias falsas (\textit{fake news}), boatos e até mensagens de assédio. Além disso, o uso para fins comerciais gera bastante controvérsia, passando por imagens e textos inseridos em produtos e soluções à integração dos modelos em software e sistemas. A possibilidade da substituição de determinados trabalhos realizados por pessoas de uma forma descontrolada é desconfortável para muitos.
 
-Os modelos podem ser vistos como caixas-preta tendo uma entrada, um processamento que é oculto aos olhos dos usuários, 
-e uma saída. Isto leva a uma necessidade de se explicar como e baseado em que o resultado é criado.
+Os modelos podem ser vistos como caixas-preta tendo uma entrada, um processamento que é oculto aos olhos dos usuários, e uma saída. Isto leva a uma necessidade de se explicar como e baseado em que o resultado é criado.
 Disponibilizar abertamente o código-fonte desses modelos pode resultar em riscos de se propagar as falhas 
 já mencionadas nos novos modelos, produzindo impactos imprevisíveis. 
 A possibilidade dos usuários fornecerem devolutivas \textit{feedback} sobre o uso dos modelos é algo necessário
 para se ter modelos responsáveis. Como exemplo, a OpenAI possibilita que usuários enviem feedback
 que são utilizados para a correção e melhoria, reduzindo possíveis impactos negativos.
 
-% Parece repetitivo, parece que não acrescenta aos parágrafos anteriores
-% Vamos ler juntos depois
-% Outro ponto relevante é que os modelos são treinados com dados sem o devido consentimento, desrespeitando os direitos
-% autorais e sem compensação aos autores pelo uso dos dados. Para evitar esse problema, as companhias passsaram 
-% a agir de forma ativa junto aos proprietários dos dados antes de realizarem o treinamento de seus modelos. 
-% Um caminho para contornar essa situação seria as empresas procurarem os autores solicitando autorização 
-% para uso dos dados bem como recompensá-los quando os dados forem consultados. Com isso haveria uma justa contrapartida 
-% para os autores e o uso responsável dos dados pelos modelos.
-
-Outro impacto é o elevado consumo de energia elétrica pelos computadores para treinar os modelos 
-cada vez maiores, podendo ter bilhões ou trilhões de parâmetros. Isso leva a uma nova reflexão ainda sem solução. 
-Os modelos deveriam buscar o equilíbrio de benefícios onde determinados grupos de 
-pessoas podem ser privilegiadas em detrimento de outros grupos resultando em desigualdades globais.
+Outro ponto relevante é que os modelos são treinados com dados sem o devido consentimento, desrespeitando os direitos autorais e sem compensação aos autores pelo uso dos dados. Para evitar esse problema, as companhias passsaram a agir de forma ativa junto aos proprietários dos dados antes de realizarem o treinamento de seus modelos. Um caminho para contornar essa situação seria as empresas procurarem os autores solicitando autorização para uso dos dados bem como recompensá-los quando os dados forem consultados. Com isso haveria uma justa contrapartida para os autores e o uso responsável dos dados pelos modelos.
 
 
-% Parece estranho, vamos tentar reescrever?
-Por fim, observa-se nos modelos de IA a existência de conflitos entre seus diversos objetivos, pois ao focar na prevenção 
-de determinado risco pode-se criar uma vulnerabilidade em outro tipo de risco. Um exemplo seria quando se busca mitigar 
-o uso de termos tóxicos em modelos de linguagem podem surgir viéses na predição que discrimina outras 
-comunidades.
+Outro impacto é o elevado consumo de energia elétrica pelos computadores para treinar os modelos cada vez maiores, podendo ter bilhões ou trilhões de parâmetros. Isso leva a uma nova reflexão ainda sem solução. Os modelos deveriam buscar o equilíbrio de benefícios onde determinados grupos de pessoas podem ser privilegiadas em detrimento de outros grupos resultando em desigualdades globais.
 
-O artigo finaliza indicando que GCIA ainda está em uma fase embrionária, em crescente e rápida evolução, 
-com tecnologias impressionantes relacionadas ao campo das artes mas com vários riscos inerentes ao seu uso. 
-Fornece um resumo dos atuais e potenciais riscos do uso de modelos possibilitando que empresas
-e usuários previnam-se, propondo ações para minimizar a ocorrência desses riscos.
-Conhecê-los, discuti-los, medi-los e agir é um bom caminho para o futuro dos modelos responsáveis.
+
+Existem conflitos entre os objetivos de realização dos modelos de IA. Ao focar em prevenir certos riscos, como uso de termos tóxicos em modelos de linguagem, expõem-se outras vulnerabilidades e riscos, como a introdução e manutenção de viéses na predição. Neste exemplo, isso pode acarretar na discriminação de comunidades.
+
+O artigo finaliza indicando que GCIA ainda está em uma fase embrionária, em crescente e rápida evolução, com tecnologias impressionantes relacionadas ao campo das artes mas com vários riscos inerentes ao seu uso. Fornece um resumo dos atuais e potenciais riscos do uso de modelos possibilitando que empresas e usuários previnam-se, propondo ações para minimizar a ocorrência desses riscos. Conhecê-los, discuti-los, medi-los e agir é um bom caminho para o futuro dos modelos responsáveis.
